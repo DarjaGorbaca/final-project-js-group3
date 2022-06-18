@@ -7,6 +7,11 @@ background-color: white;
 .about-container {
     display: flex;
 }
+
+h2{
+    font-size: 30px;
+}
+
 /* section {
     min-height: 100vh;
     display: flex;
@@ -62,7 +67,7 @@ nav{
 }
 
 
-ul{
+.links{
     flex: 1;
     text-align: right;
     list-style: none;
@@ -110,7 +115,7 @@ ul li a:hover{
 }
 
 .dark {
-    background-color: rgb(102, 80, 58);
+    background-color: rgb(60, 60, 59);
     transition: 0.3s;
 }
 
@@ -132,9 +137,8 @@ ul li a:hover{
     color: rgb(255, 255, 255);
 }
 
-.follow-content{
-    font-size: 38px;
-}
+
+/* home */
 
 #home{
     /* height: 600px; */
@@ -159,6 +163,8 @@ ul li a:hover{
     margin-top: 10px;
     color: black;
 }
+
+/* about */
 
 .about-image1{
     position: absolute;
@@ -187,66 +193,148 @@ ul li a:hover{
 }
 
 .about-main{
+    width: 33%;
     margin-top: 20px;
     width: 500px;
     font-size: 25px;
 
 }
 
-.image-container1{
-    float: left;
-    margin-left: 50px; 
-    background: #f0f0f0;
-    padding: 2%;
+.about-button{
 
 }
 
-.image-container2{
-    float: left;
-    margin-left: 50px; 
-    background: #f0f0f0;
-    padding: 2%;
+/* concept */
 
-
+.concept-card{
+    padding-top: 30px;
+    background: #969292;
+    width: 30%;
+    min-height: 600px;
+    margin: auto;
+    display: block;
+    border-radius: 2rem;
 }
 
-.image-container3{
-    float: left;
-    margin-left: 50px; 
-    background: #f0f0f0;
-    padding: 2%;
-
-
+.concept-card img{
+    margin-top: 120px;
 }
 
-#image1{
-    position: absolute;
-    margin-left: 10px;
-}
-
-#image2{
-    position: absolute;
-    margin-left: 10px;
-}
-
-#image3{
-    position: absolute;
-}
-
-#contacts{
-    text-align: center;
-    height: 700px;
-}
 
 #concept{
     height: 700px;
-    display: inline-flex;
-    margin-top: 15%;
+    min-width: 100%;
+    margin-top: 350px;
+    text-align: center;
 }
 
 .concept-container{
-    width: 100%;
-    height: 600px;
+    margin-top: 30px;
+    text-align: center;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
+
+
+/* destinations */
+
+.destinations-main{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.box{
+    width: 470px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+.slide-img{
+    height: 400px;
+    position: relative;
+
+}
+
+.slide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    
+}
+
+.detail-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.box-text{
+   font-size: 26px;
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.overlay{
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 420px;
+    background-color: rgba(175, 175, 180, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-btn{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #252525;
+    font-weight: 700;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.book-btn:hover{
+    color: #ffffff;
+    background-color: #0b0b0b;
+    transition: all ease 0.3s;
+}
+
+.overlay{
+    visibility: hidden;
+}
+
+.slide-img:hover .overlay{
+    visibility: visible;
+}
+
+
+/* contacts */
+
+
+#contacts{
+    text-align: center;
+    height: 500px;
+    margin-top: 250px;
+}
+
+.follow-content{
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
