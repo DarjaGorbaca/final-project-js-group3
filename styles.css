@@ -224,7 +224,7 @@ ul li a:hover{
 #concept{
     height: 700px;
     min-width: 100%;
-    margin-top: 350px;
+    margin-top: 400px;
     text-align: center;
 }
 
@@ -321,6 +321,23 @@ ul li a:hover{
 
 .slide-img:hover .overlay{
     visibility: visible;
+}
+
+
+/* gallery */
+
+.content-container img{
+    height: 650px;
+    width: 500px;
+    justify-content: space-between;
+    margin-left: 40px;
+    
+}
+
+.gallery-main{
+    margin-top: 350px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 
