@@ -15,17 +15,22 @@ function imageMode(color) {
 
 function darkMode() {
     imageMode('dark')
-    
 }
+
 function lightMode() {
     imageMode('light')
 }
 
 switchElement.addEventListener('click', () => {
-    document.body.classList.toggle('dark')
-    darkMode(); 
-}
+    document.body.classList.toggle('dark');
+    if(document.body.classList == 'dark'){
+        darkMode();
+    } else {
+        lightMode();
+    }
 
+}
+    
 );
 
 // gallery
