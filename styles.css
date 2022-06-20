@@ -85,7 +85,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: rgb(102, 80, 58);
+    color: rgb(39, 38, 38);
 }
 
 
@@ -137,6 +137,10 @@ ul li a:hover{
     color: rgb(255, 255, 255);
 }
 
+.dark > * h1{
+    color: rgb(255, 255, 255); 
+}
+
 
 /* home */
 
@@ -152,7 +156,7 @@ ul li a:hover{
     letter-spacing: 0.22px;
     text-align: center;
     width: 700px;
-    color: rgb(102, 80, 58);
+    color: rgb(39, 38, 38);
     top: 14%;
     right: 30%;
 }
