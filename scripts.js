@@ -4,11 +4,13 @@ const switchElement = document.querySelector('.switch')
 const image1 = document.getElementById('image1');
 const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
+const logo = document.getElementById('logo');
 
 function imageMode(color) {
     image1.src = `illustraitions/undraw_aircraft_re_m05i ${color}.svg`;
     image2.src = `illustraitions/undraw_journey_re_ec5q ${color}.svg`;
     image3.src = `illustraitions/undraw_hiking_re_k0bc ${color}.svg`;
+    logo.src = `images/mountain1 ${color}.png`; 
 }
 
 function darkMode() {
@@ -21,8 +23,9 @@ function lightMode() {
 
 switchElement.addEventListener('click', () => {
     document.body.classList.toggle('dark')
-    darkMode();
+    darkMode(); 
 }
+
 );
 
 // gallery
