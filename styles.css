@@ -211,10 +211,6 @@ ul li a:hover{
 
 }
 
-.about-button {
-
-}
-
 /* concept */
 
 .concept-card{
@@ -347,7 +343,7 @@ ul li a:hover{
 }
 
 .gallery-main{
-    margin-top: 350px;
+    margin-top: 200px;
     margin-bottom: 50px;
     text-align: center;
 }
