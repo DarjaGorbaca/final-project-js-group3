@@ -200,7 +200,7 @@ ul li a:hover{
 
 }
 
-.about-button{
+.about-button {
 
 }
 
@@ -218,6 +218,8 @@ ul li a:hover{
 
 .concept-card img{
     margin-top: 120px;
+    height: 300px;
+    width: 300px;
 }
 
 
@@ -235,7 +237,6 @@ ul li a:hover{
     justify-content: space-between;
     padding: 20px;
 }
-
 
 /* destinations */
 
@@ -327,8 +328,8 @@ ul li a:hover{
 /* gallery */
 
 .content-container img{
-    height: 650px;
-    width: 500px;
+    height: 500px;
+    width: auto;
     justify-content: space-between;
     margin-left: 40px;
     
