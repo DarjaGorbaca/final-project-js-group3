@@ -141,6 +141,13 @@ ul li a:hover{
     color: rgb(255, 255, 255); 
 }
 
+.dark > * a{
+    color: rgb(255, 255, 255);
+}
+
+.dark > nav{
+    background-color: rgb(60, 60, 59);
+}
 
 /* home */
 
@@ -332,8 +339,8 @@ ul li a:hover{
 /* gallery */
 
 .content-container img{
-    height: 500px;
-    width: auto;
+    height: 650px;
+    width: 500px;
     justify-content: space-between;
     margin-left: 40px;
     
